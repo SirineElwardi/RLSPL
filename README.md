@@ -1,4 +1,4 @@
-# SPLRL_SoftwareProductLineForReinforcementLearning
+# RLSPL_ReinforcementLearningSoftwareProductLine
 
 This project's main motive is to embed the principles and practices of software product line engineering in the field of reinforcement learning.
 
