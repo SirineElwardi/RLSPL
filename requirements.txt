@@ -1,0 +1,20 @@
+# Environment & Physics
+gymnasium[box2d]==0.29.1
+pygame
+pyglet==1.5.27
+
+# Visualization
+matplotlib
+pillow==10.2.0
+
+# Math & Parsing
+numpy==1.21.6
+mpmath==1.3.0
+pyparsing==3.1.1
+
+# Utilities
+wheel
+swig
+
+
+

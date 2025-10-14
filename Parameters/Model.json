@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Update Factor VALUE",
+    "description": "A multiplier determining the amount of learning to perform during each update. Higher values can lead to faster learning but may cause instability.",
+    "default": 1,
+    "min": 1,
+    "max": 10
+  },
+  {
+    "name": "Target Update VALUE",
+    "description": "The frequency (in steps) at which the target network is updated with the weights of the current network.",
+    "default": 10,
+    "min": 1,
+    "max": 100
+  },
+  
+ {
+    "name": "Soft Update VALUE",
+    "description": "The factor for soft updates of the target network. A small value means the target network updates slowly, which can stabilize training.",
+    "default": 0.001,
+    "min": 1e-4,
+    "max": 1
+  },
+ 
+  {
+    "name": "Hidden Dimensions VALUE",
+    "description": "The number of neurons in the hidden layers of the neural network. Larger dimensions can capture more complex patterns but require more computation.",
+    "default": 64,
+    "min": 16,
+    "max": 256
+  }
+]
+

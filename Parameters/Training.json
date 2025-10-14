@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Buffer Size VALUE",
+    "description": "The size of the replay buffer which stores past experiences for training. A larger buffer can hold more experiences but requires more memory.",
+    "default": 1000000,
+    "min": 10000,
+    "max": 10000000
+  },
+  {
+    "name": "Batch Size VALUE",
+    "description": "The number of experiences sampled from the replay buffer for each training step. Larger batches improve learning stability but require more computational resources.",
+    "default": 64,
+    "min": 16,
+    "max": 256
+  },
+  {
+    "name": "Discount Factor VALUE",
+    "description": "The discount factor for future rewards. It determines the importance of future rewards. A value close to 1 makes the agent prioritize long-term rewards.",
+    "default": 0.99,
+    "min":0,
+    "max": 0.999
+  }
+  ,
+  {
+    "name": "Number of episodes VALUE",
+    "description": "The total number of training episodes. More episodes typically improve the policy but require more computation time.",
+    "default": 2000
+    
+    
+  },
+  {
+    "name": "Print Every VALUE",
+    "description": "The number of episodes between each performance log/print. Helps track training progress.",
+    "default": 100,
+    "min": 1,
+    "max": 500
+  },
+ 
+  {
+    "name": "Epsilon VALUE",
+    "description": "The initial value of epsilon in epsilon-greedy action selection. High values encourage exploration, while low values favor exploitation.",
+    "default": 1.0,
+    "min": 0
+  },
+  {
+    "name": "Epsilon decay VALUE",
+    "description": "The rate at which epsilon decays. A slower decay allows for more exploration over a longer period.",
+    "default": 0.995,
+    "min": 0.9
+  },
+  {
+    "name": "Min Epsilon VALUE",
+    "description": "The minimum value of epsilon. Ensures that there is always some level of exploration.",
+    "default": 0.01
+    
+  },
+  {
+    "name": "Max epsilon VALUE",
+    "description": "The episode at which epsilon reaches its minimum value. Helps control the rate of exploration decay over time.",
+    "default": 1000
+  }
+]

@@ -1,0 +1,12 @@
+{
+    "python.analysis.extraPaths": [
+
+        
+        "~/mobioos-forge-customizations",
+      
+      
+        
+    ],
+
+   
+}

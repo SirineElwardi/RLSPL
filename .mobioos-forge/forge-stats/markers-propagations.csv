@@ -1,0 +1,67 @@
+Feature,#Markers,#Code Markers,#File Markers,#Propagations,#Deletion Propagations,#Replacement Propagations,#Resource Propagations,#Path Propagations
+
+Environment,0,0,0,0,0,0,0,0
+Agent,0,0,0,0,0,0,0,0
+Hyper Parameters,0,0,0,0,0,0,0,0
+Model,0,0,0,0,0,0,0,0
+Optimizer,0,0,0,0,0,0,0,0
+Action Selection,0,0,0,0,0,0,0,0
+Deep Q Network,9,6,3,6,6,0,0,7
+Deep Deterministic Policy Gradient,10,7,3,8,8,0,0,10
+Epsilon Greedy,0,0,0,0,0,0,0,0
+Ornstein-Uhlenbeck ,0,0,0,0,0,0,0,0
+Gradient decent,0,0,0,0,0,0,0,0
+Adam,0,0,0,0,0,0,0,0
+Training parameters ,0,0,0,0,0,0,0,0
+Model Parameters,0,0,0,0,0,0,0,0
+Learning Rates and Optimization,0,0,0,0,0,0,0,0
+Deep Models,0,0,0,0,0,0,0,0
+Tabular Models,0,0,0,0,0,0,0,0
+Q learning ,1,0,1,0,0,0,0,0
+Number of episodes,1,1,0,1,1,0,0,0
+Buffer Size,1,1,0,1,1,0,0,0
+Batch Size,1,1,0,1,1,0,0,0
+Discount Factor,1,1,0,1,1,0,0,0
+Print every,1,1,0,1,1,0,0,0
+Prebuilt environment,0,0,0,0,0,0,0,0
+LunarLander-v2,2,2,0,2,2,0,0,0
+User-Defined environment,1,0,1,0,0,0,0,1
+MountainCar-v0,1,0,1,0,0,0,0,5
+Max episode ,1,1,0,1,1,0,0,0
+Min epsilon ,1,1,0,1,1,0,0,0
+Epsilon Decay,1,1,0,1,1,0,0,0
+Epsilon,1,1,0,1,1,0,0,0
+Hidden Dimensions,1,1,0,1,1,0,0,0
+Soft update ,1,1,0,1,1,0,0,0
+Learning Rate,1,1,0,1,1,0,0,0
+Actor Learning rate,1,1,0,1,1,0,0,0
+Critic Learning rate,1,1,0,1,1,0,0,0
+Weight Decay,1,1,0,1,1,0,0,0
+Learning Frequency ,1,1,0,1,1,0,0,0
+LunarLanderContinuous-v2,1,1,0,1,1,0,0,0
+Target Update,1,1,0,1,1,0,0,0
+Update Factor,1,1,0,1,1,0,0,0
+CartPole-v1,0,0,0,0,0,0,0,0
+Acrobot-v1,0,0,0,0,0,0,0,0
+Soft Actor critic,1,1,0,1,1,0,0,0
+Entropy Regularization,0,0,0,0,0,0,0,0
+Temperature parameter,0,0,0,0,0,0,0,0
+Temperature parameter VALUE,0,0,0,0,0,0,0,0
+Epsilon VALUE,1,1,0,1,0,0,1,0
+Epsilon decay VALUE,1,1,0,1,0,0,1,0
+Hidden Dimensions VALUE,1,1,0,1,0,0,1,0
+Number of episodes VALUE,1,1,0,1,0,0,1,0
+Buffer Size VALUE,1,1,0,1,0,0,1,0
+Batch Size VALUE,1,1,0,1,0,0,1,0
+Learning Rate VALUE,1,1,0,1,0,0,1,0
+Actor Learning Rate VALUE,1,1,0,1,0,0,1,0
+Critic Learning Rate VALUE,1,1,0,2,0,0,2,0
+Weight Decay VALUE,1,1,0,1,0,0,1,0
+Discount Factor VALUE,1,1,0,1,0,0,1,0
+Soft Update VALUE,1,1,0,1,0,0,1,0
+Min Epsilon VALUE,1,1,0,1,0,0,1,0
+Max episode VALUE,1,1,0,1,0,0,1,0
+Print Every VALUE,1,1,0,1,0,0,1,0
+Learning Frequency VALUE,1,1,0,1,0,0,1,0
+Target Update VALUE,1,1,0,1,0,0,1,0
+Update Factor VALUE,1,1,0,1,0,0,1,0

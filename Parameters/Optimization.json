@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Learning Rate VALUE",
+    "description": "The step size for updating the network weights. A higher rate can speed up learning but may cause instability.",
+    "default": 0.001,
+    "min": 1e-5,
+    "max": 1
+  },
+  {
+    "name": "Actor Learning Rate VALUE",
+    "description": "The learning rate specifically for the actor network in actor-critic methods. Controls how much to adjust the actor network's weights.",
+    "default": 0.0001,
+    "min": 1e-5,
+    "max": 1
+  },
+  {
+    "name": "Critic Learning Rate VALUE",
+    "description": "The learning rate specifically for the critic network in actor-critic methods. Controls how much to adjust the critic network's weights.",
+    "default": 0.001,
+    "min": 1e-5,
+    "max": 1
+  },
+  {
+    "name": "Weight Decay VALUE",
+    "description": "The L2 penalty (regularization) added to the loss to prevent overfitting by penalizing large weights.",
+    "default": 0,
+    "min": 0,
+    "max": 1
+  },
+  {
+    "name": "Learning Frequency VALUE",
+    "description": "The number of steps between each learning update. Determines how often the agent learns from the replay buffer.",
+    "default": 20,
+    "min": 1,
+    "max": 100
+  }
+]
