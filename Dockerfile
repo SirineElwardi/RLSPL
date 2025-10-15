@@ -3,14 +3,11 @@ FROM python:3.10-slim AS base
 
 RUN apt-get update && apt-get upgrade -y && apt-get clean && rm -rf /var/lib/apt/lists/*
 WORKDIR /ReinforcementLearningSPL
-COPY ExternalDependencies /ExternalDependencies
 RUN apt update && apt upgrade -y && apt install -y --no-install-recommends \
     build-essential \
     libssl-dev && \
-    dpkg -i /ExternalDependencies/libssl1.0.0_1.0.2n-1ubuntu5.13_amd64.deb || true && \
     apt-get -f install -y --no-install-recommends && \
     apt-get clean && \
-    rm -rf /var/lib/apt/lists/* /ExternalDependencies
 
 # Stage 2: Install Python Dependencies
 FROM base AS dependencies
